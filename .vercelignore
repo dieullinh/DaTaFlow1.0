@@ -1,0 +1,15 @@
+# Ignore local python servers and development tools so Vercel builds as clean static/edge web
+server.py
+server_clean.py
+build_server.py
+agent_engine.py
+gemini_llm.py
+wsgi_adapter.py
+pipeline_execution_result.json
+Dockerfile
+.dockerignore
+Procfile
+requirements.txt
+runtime.txt
+__pycache__/
+*.log
